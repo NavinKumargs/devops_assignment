@@ -1,0 +1,5 @@
+com\example\TailorGang\model\Model.class
+com\example\TailorGang\repository\Repository.class
+com\example\TailorGang\controller\Controller.class
+com\example\TailorGang\ServletInitializer.class
+com\example\TailorGang\TailorGangApplication.class

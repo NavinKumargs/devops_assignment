@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: tailorgang
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: tailorgang
+  template:
+    metadata:
+      labels:
+        app: tailorgang
+    spec:
+      containers:
+      - name: tailorgang-containers
+        image: tailorgang:latest
+        ports:
+        - containerPort: 8080
